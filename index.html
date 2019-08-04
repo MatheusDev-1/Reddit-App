@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REDDIT</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">/r/</span>
+        </div>
+        <input class="input-reddit" placeholder=""></input>
+        <div class="input-group-prepend">
+            <button class="btn btn-outline-secondary" id="mudar" type="button">Mudar</button>
+        </div>
+    </div>
+
+    <div class="posts"></div>
+    
+    <div class="principal">
+            <ul class="list-group list-group-flush" id="posts">
+            </ul>
+                <div class="imagem">
+                    <img id="img" src="load.gif">
+                </div>
+    </div>
+</body>
+<script src="func.js"></script>
+
+
+</html>

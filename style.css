@@ -1,0 +1,88 @@
+.principal{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 100%;
+}
+
+.list-group-item{
+    justify-content: flex-start;
+    font-size: 35px;
+    width: 750px;
+    cursor: default;
+    user-select: none;
+    transition: color 0.25s, background-color 0.25s, font-size 0.25s;
+}
+
+.list-group-item:hover{
+    color:white;
+    font-size: 38px;
+    background-color: black;
+}
+
+.imagem{
+    width: 1070px;
+    height: 920px;
+    justify-items: center;
+    transition: all .5s ease-in;
+}
+
+.reddit{
+    display: flex;
+    flex-direction: column;
+    width: 745px;
+}
+
+.input-reddit{
+    width: 633px;
+    height: 43px;
+    border-color: cadetblue;
+    border-style: dashed;
+    padding-left: 10px;
+}
+
+
+#img{
+    display: block;
+    max-width: 1070px;
+    max-height: 920px;
+    left:83%;
+    top: 50%;
+    transform: translate(-75%, -50%);
+    position: fixed;
+}
+
+.icon{
+    flex-direction: row;
+    border-radius: 15px;
+    width:40px;
+    height:40px;
+}
+
+.icon:hover{
+    z-index: 5;
+}
+
+.thumbnail{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+
+    border-color: white;
+    width:40px;
+    height:40px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,250,0.5); 
+}
