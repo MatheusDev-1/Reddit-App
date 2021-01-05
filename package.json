@@ -9,7 +9,7 @@
   "author": "Matheus Oliveira da Hora",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "tailwindcss": "^1.0.6"
   },
   "devDependencies": {
